@@ -7,6 +7,7 @@ class Palette extends Component {
 
 
     render() {
+     
         const colorBoxes = this.props.colors.map(color => (
             <ColorBox
               background={color.color}
